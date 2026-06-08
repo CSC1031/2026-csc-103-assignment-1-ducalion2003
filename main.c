@@ -20,10 +20,10 @@ int main()
     printf("Your average is: %f\n",average);
 
     if (average >= 80 && average <= 100){
-          printf("Your Grade is A\n");
+          printf("Your Grade is :A\n");
 }
     else if (average >= 70 && average < 80){
-          printf("Your Grade is B\n");
+          printf("Your Grade is :B\n");
 }
     else if (average >= 60 && average < 70){
           printf("Your Grade is C\n");
