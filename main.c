@@ -36,11 +36,24 @@ int main()
 }
 
    if(maths < 40 || science < 40 || english < 40){
-       printf("Result :Fail");
+       printf("Result :Fail\n");
      }
    else{
-       printf("Result :Pass");
+       printf("Result :Pass\n");
      }
+
+     if (maths >= science && maths >= english)
+{
+    printf("Highest Mark = %d (Maths)\n", maths);
+}
+else if (science >= maths && science >= english)
+{
+    printf("Highest Mark = %d (Science)\n", science);
+}
+else
+{
+    printf("Highest Mark = %d (English)\n", english);
+}
 
 return 0;
 }
